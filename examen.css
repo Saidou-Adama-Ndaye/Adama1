@@ -1,0 +1,129 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	text-decoration: none;
+	list-style-type: none;
+}
+body{
+	background-image: url(ima1.jpg);
+	width: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: black;
+	top: 0;
+	padding: 20px;
+	justify-content: space-between;
+	opacity: 0.9;
+}
+.liste li{
+	display: inline-block;
+    margin-left: 50px;
+}
+.l1 {
+	display: none;
+	position: absolute;
+}
+li a{
+	color: white;
+}
+.liste li:hover .l1{
+	cursor: pointer;
+	display: block;
+	background-color: lime;
+	border: 2px solid black;
+	border-radius: 3px;
+}
+.l1 li {
+	text-align: center;
+	display: block;
+	line-height: 20px;
+	padding: 6px;
+}
+.l1 li a{
+	margin-right: 40px;
+}
+.content{
+	border: 1px solid black;
+	width: 550px;
+	position: absolute;
+	left: 2%;
+	top:15%;
+	padding: 20px;
+	background-color: #000;
+	opacity: 1;
+	border-radius: 15px;
+	box-shadow: 0px 40px 40px;
+	height: 500px;
+}
+h1{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	font-weight: 100;
+	opacity: 0.8;
+	color: white;
+}
+
+h4{
+   position: absolute;
+   top: 30%;
+   left: 40%;
+   width: 320px;
+   text-align: justify;
+   text-transform: capitalize;
+   color: white;
+   font-weight: 100;
+   line-height: 25px;
+   letter-spacing: 0.4px;
+   opacity: 0.5;
+}
+button{
+	position: absolute;
+	top: 75%;
+	left: 56%;
+	padding: 10px;
+	background: #ff4c4c;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	border: none;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 3px;
+	outline: none;
+}
+button:hover{
+	background-color: #ed5565;
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	margin-top: 1000px;
+}
+footer .contenu-footer{
+	width:1350px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	background-color: black;
+	height: 400px;
+}
+.blo-footer{
+	width: 25%;
+}
+.list-service{
+	margin-top: 30px;
+}
+ p{
+	margin-top: 30px;
+}
+.list-service img{
+	   margin-top: 30px;
+}
